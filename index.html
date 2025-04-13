@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JB MICHAELz STORE</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: url('https://files.catbox.moe/u1q2pf.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+    }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.8);
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      background-color: rgba(0, 0, 0, 0.5);
+      position: relative;
+    }
+
+    .menu-toggle {
+      font-size: 24px;
+      cursor: pointer;
+    }
+
+    .menu {
+      display: none;
+      position: absolute;
+      top: 50px;
+      right: 20px;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 10px;
+      border-radius: 10px;
+    }
+
+    .menu a {
+      display: block;
+      color: white;
+      text-decoration: none;
+      padding: 5px 0;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .product-list {
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .product {
+      background-color: rgba(255, 255, 255, 0.08);
+      margin-bottom: 15px;
+      padding: 15px;
+      border-radius: 10px;
+      border: 1px solid white;
+    }
+
+    .product-title {
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .price {
+      color: #ffd700;
+      margin: 5px 0;
+    }
+
+    .whatsapp-btn {
+      background-color: #25D366;
+      color: white;
+      border: none;
+      padding: 8px 12px;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+      font-size: 14px;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      margin-top: 5px;
+    }
+
+    .whatsapp-btn:hover {
+      background-color: #1ebe5d;
+    }
+
+    @media screen and (max-width: 600px) {
+      .product {
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <div class="navbar">
+      <h2>MICHAELz STORE</h2>
+      <div class="menu-toggle" onclick="toggleMenu()">
+        <i class="fas fa-bars"></i>
+      </div>
+      <div class="menu" id="menu">
+        <a href="https://wa.me/6283114365585" target="_blank">PT Naldi STORE (WA)</a>
+        <a href="https://wa.me/6282141344690" target="_blank">OWNER MICHAELz STORE (WA)</a>
+      </div>
+    </div>
+
+    <h1>MICHAELz STORE</h1>
+    <div class="product-list">
+
+      <div class="product">
+        <div class="product-title">ALL TESTI MICHAELz STORE</div>
+        <div class="price">GAS JOIN CUYY </div>        
+        <a class="whatsapp-btn" href="https://whatsapp.com/channel/0029VbA7ndO17Emwoq4xUj3L" target="_blank">
+          <i class="fab fa-whatsapp"></i> Chat WA
+        </a>
+      </div>
+
+      <div class="product">
+        <div class="product-title">GB 1 MICHAELz STORE</div>
+        <div class="price">JANGAN LUPA MASUK GB 1 BANYAK INFO INFO BERGUNA</div>        
+        <a class="whatsapp-btn" href="https://chat.whatsapp.com/IM3qechVCcrDsI9w6kjs3Q" target="_blank">
+          <i class="fab fa-whatsapp"></i> Chat WA
+        </a>
+      </div>
+
+ <div class="product">
+    <div class="product-title">GB 2 MICHAELz STORE</div>
+    <div class="price">MASUK GB 2 JANGAN LUPA CUY</div>  
+  <a class="whatsapp-btn" href="https://chat.whatsapp.com/FOsAAbZBoGoC4TSqiRMgQ7" target="_blank">
+    <i class="fab fa-whatsapp"></i> Chat WA
+  </a>
+</div>
+      <div class="product">
+        <div class="product-title">Gb 3 MICHAELz STORE</div>
+        <div class="price">Rp25.000</div>
+        <a class="whatsapp-btn" href="https://wa.me/6281399649577?text=hallo%20bang%20alip%20mau%20buy%20Jasa%20Buat%20Website%20Dong" target="_blank">
+          <i class="fab fa-whatsapp"></i> Chat WA
+        </a>
+      </div>
+
+      <div class="product">
+        <div class="product-title">GB STOK PRIBADI MICHAELz STORE</div>
+        <div class="price">MASUK CUY DIJAMIN MURMER HARGA TERJANGKAU🤩</div>
+        <a class="whatsapp-btn" href="https://chat.whatsapp.com/CDw4OVPjyhBDwXlC9Kyj4N" target="_blank">
+          <i class="fab fa-whatsapp"></i> Chat WA
+        </a>
+      </div> 
+      
+    </div>
+  </div>
+
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById('menu');
+      menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+    }
+  </script>
+</body>
+</html>
